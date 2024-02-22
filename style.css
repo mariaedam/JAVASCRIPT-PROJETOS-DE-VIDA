@@ -1,16 +1,18 @@
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Roboto+Slab:wght@100..900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
 </style>
+
 :root {
-    --cor-de-fundo:#84b0da;
-    --blue:#0F00DA;
-    --branco:#FFFFFF;
-    --botao-ativo:#6FFF57;
-    --botao-inativo: rgba(218, 6, 122, 0.5);
-    --texto-fundo: rgba(20, 8, 155, 0.705);
-   }
-    body{
-          background-color: blueviolet (cor de fundo);
-          color: var (blue);
-          font-family: Arial, Helvetica, sans-serif;
-    }
+    --cor-de-fundo:#1E1E1E;
+    --verde: #6FFF57;
+    --branco: #FFFFFF;
+    --botao-ativo: #3A375E;
+    --botao-inativo: rgba(58,55,94,0,5);
+    --texto-fundo: rgba(58,55,94,0,3);
+}
+
+body{
+     background-color:  var(--cor-de-fundo);
+     color: var(--branco);
+     font-family: 'Chakra Petch', sans-serif;
+}
