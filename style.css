@@ -1,7 +1,6 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
 </style>
-
 :root {
     --cor-de-fundo:#1E1E1E;
     --verde: #6FFF57;
@@ -10,17 +9,15 @@
     --botao-inativo: rgba(58,55,94,0,5);
     --texto-fundo: rgba(58,55,94,0,3);
 }
-
 body{
      background-color:  var(--cor-de-fundo);
-    .titulo-principal span {
-    color: var(--branco);
-   }
+     color: var(--branco);
      font-family: 'Chakra Petch', sans-serif;
 }
   :root {--cor-base#ff6347;
 }
   :root {--cor de fundo: #CCCCCC;
+}
 }
 .conteudo-principal {
     display: flex;
@@ -70,5 +67,3 @@ body{
 .botao:first-child {
     border-radius: 40px 40px 0 0;
 }
-
-
